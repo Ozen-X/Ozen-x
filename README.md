@@ -61,12 +61,12 @@ A sleek weather application providing accurate location-based data.
 
 ---
 
-### 📈 **GitHub Stats**
+<!-- ### 📈 **GitHub Stats**
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Ozen-X&show_icons=true&theme=radical" alt="Mohd Zaid's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ozen-X&layout=compact&theme=radical" alt="Top Languages" />
-</div>
+</div> -->
 
 ---
 
