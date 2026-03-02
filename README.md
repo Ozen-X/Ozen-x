@@ -1,5 +1,14 @@
-# 💫 About Me:
-Hi there, I'm Mohd Zaid! 👋<br>👨‍💻 Full Stack Web Developer<br>I'm a passionate and self-taught Full Stack Developer based in Hapur, India. I specialize in building high-performance, secure, and scalable web applications using the MERN Stack (Modified) and Firebase.<br><br>Founder of OzenX, where I deliver custom digital solutions with a focus on modern design and robust functionality.<br><br><br>🔭 I’m currently working on enhancing OzenX, my portfolio & CMS platform.<br>🌱 I’m currently learning advanced Data Structures & Algorithms.<br>👯 I’m looking to collaborate on open-source projects and innovative web apps.<br>💬 Ask me about JS, PHP, React, React Native, Next.js, Laravel, Node.js, Express.js, Ionic, Capacitor, Cordova, Angular, and Web Security.<br>📫 How to reach me: info@ozenx.in<br>⚡ Fun fact: I built a custom CMS from scratch because I love having full control!
+
+# Hi there, I'm Mohd Zaid! 👋
+
+### 👨‍💻 Full Stack Web Developer
+
+I'm a passionate and self-taught Full Stack Developer based in Hapur, India. I specialize in building high-performance, secure, and scalable web applications using the MERN Stack (Modified) and Firebase.<br><br>Founder of OzenX, where I deliver custom digital solutions with a focus on modern design and robust functionality.<br>
+
+---
+### 🚀 **About Me**
+
+<br>🔭 I’m currently working on enhancing OzenX, my portfolio & CMS platform.<br>🌱 I’m currently learning advanced Data Structures & Algorithms.<br>👯 I’m looking to collaborate on open-source projects and innovative web apps.<br>💬 Ask me about JS, PHP, React, React Native, Next.js, Laravel, Node.js, Express.js, Ionic, Capacitor, Cordova, Angular, and Web Security.<br>📫 How to reach me: info@ozenx.in<br>⚡ Fun fact: I built a custom CMS from scratch because I love having full control!
 
 
 ## 🌐 Socials:
@@ -12,10 +21,39 @@ Hi there, I'm Mohd Zaid! 👋<br>👨‍💻 Full Stack Web Developer<br>I'm a p
 ![](https://nirzak-streak-stats.vercel.app/?user=Ozen-x&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ozen-x&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+---
+
+### 🏆 **Featured Projects**
+
+#### 1. **[OzenX - Portfolio & CMS Platform](https://ozenx.in)**
+A professional portfolio website with a fully dynamic, secure Admin Panel.
+- **Tech:** React, Tailwind, Firebase, Cloudinary, EmailJS.
+- **Key Features:** Custom CMS, Google Biometric Login, 2FA (OTP), Drag-and-Drop uploads.
+
+#### 2. **Complaint Management Portal**
+A real-time issue tracking system for efficient complaint resolution.
+- **Tech:** React, Firebase Realtime Database.
+- **Key Features:** Instant updates, status tracking, admin dashboard.
+
+#### 3. **Weather Forecast App**
+A sleek weather application providing accurate location-based data.
+- **Tech:** React, OpenWeatherMap API.
+- **Key Features:** Geolocation detection, live weather updates, responsive UI.
+
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Ozen-x&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
 ---
+### 🤝 **Connect With Me**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-ozenx.in-ff6b6b?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ozenx.in)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@ozenx.in)
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-USERNAME) -->
+
+---
+
+⭐️ From [Mohd Zaid](https://github.com/Ozen-X)
 [![](https://visitcount.itsvg.in/api?id=Ozen-x&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
