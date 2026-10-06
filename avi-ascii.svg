@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="360" viewBox="0 0 370 360" role="img" aria-label="ASCII portrait">
+  <defs>
+    <style>
+      .row {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 12px;
+        fill: #d0d7de;
+        opacity: 0;
+        animation: typeRow 0.35s ease-out forwards;
+      }
+      .row:nth-child(odd) { animation-delay: 0.04s; }
+      .row:nth-child(even) { animation-delay: 0.08s; }
+      @keyframes typeRow {
+        from { opacity: 0; transform: translateX(-16px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#0d1117" rx="16"/>
+  <g transform="translate(20,18)">
+    <text x="0" y="18" class="row">      .,:;looolc:;.</text>
+    <text x="0" y="36" class="row">   .ldkO0KXNNXXK0Ox:.</text>
+    <text x="0" y="54" class="row">  .o0NMMMMMMMMMMMMN0o.</text>
+    <text x="0" y="72" class="row"> .dWMMMMMMMMMMMMMMMMWk.</text>
+    <text x="0" y="90" class="row"> ;KMMMMMMMMMMMMMMMMMMK:</text>
+    <text x="0" y="108" class="row"> :WMMMMMMMMMMMMMMMMMMMW:</text>
+    <text x="0" y="126" class="row"> :NMMMMMMMMMMMMMMMMMMMMN:</text>
+    <text x="0" y="144" class="row"> .0MMMMMMMMMMMMMMMMMMMM0.</text>
+    <text x="0" y="162" class="row">  .kMMMMMMMMMMMMMMMMMMk.</text>
+    <text x="0" y="180" class="row">    ;0MMMMMMMMMMMMMM0:</text>
+    <text x="0" y="198" class="row">      .:ox0NMMMMN0xo:.</text>
+    <text x="0" y="216" class="row">          '::;::'</text>
+    <text x="0" y="234" class="row">       .,:;;, .:;;:,.</text>
+    <text x="0" y="252" class="row">    .:cllllllllllllllc:.</text>
+    <text x="0" y="270" class="row">  .;lllllllllllllllllll;.</text>
+    <text x="0" y="288" class="row">  ;lllllllllllllllllllll;</text>
+    <text x="0" y="306" class="row">  ;lllllllllllllllllllll;</text>
+    <text x="0" y="324" class="row">   .;lllllllllllllllll;.</text>
+  </g>
+</svg>
