@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime, timezone
 from pathlib import Path
 
 import requests
@@ -28,10 +28,13 @@ def parse_label_count(label: str) -> int:
 
 def calculate_streaks(days: list[dict]) -> tuple[int, int, int, str]:
     counts = {entry["date"]: entry["count"] for entry in days}
-    today = date.today()
+    if not days:
+        return 0, 0, 0, ""
+
+    latest_day = max(days, key=lambda entry: entry["date"])
+    cursor = date.fromisoformat(latest_day["date"])
 
     current = 0
-    cursor = today
     while counts.get(cursor.isoformat(), 0) > 0:
         current += 1
         cursor -= timedelta(days=1)
@@ -47,8 +50,8 @@ def calculate_streaks(days: list[dict]) -> tuple[int, int, int, str]:
             streak = 0
 
     best_day = max((entry["count"] for entry in days), default=0)
-    best_date = max(days, key=lambda x: x["count"], default={"date": "", "count": 0})
-    return current, longest, best_day, best_date["date"]
+    best_entry = max(days, key=lambda entry: (entry["count"], entry["date"]), default={"date": "", "count": 0})
+    return current, longest, best_day, best_entry["date"]
 
 
 def build_monthly_totals(days: list[dict]) -> dict[str, int]:

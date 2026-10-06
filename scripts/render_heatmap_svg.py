@@ -27,17 +27,16 @@ def build_daily_map(days: list[dict]) -> dict[str, int]:
 
 def create_svg(data: dict) -> str:
     days = data.get("days", [])
-    daily_map = build_daily_map(days)
     if not days:
         raise ValueError("No contribution days available to render.")
 
+    daily_map = build_daily_map(days)
     start_date = iso_to_date(days[0]["date"])
     end_date = iso_to_date(days[-1]["date"])
     grid_start = start_date - timedelta(days=start_date.weekday() + 1)
     grid_end = end_date + timedelta(days=(6 - end_date.weekday()))
 
     chart_width = (GRID_WIDTH * CELL) + ((GRID_WIDTH - 1) * GAP)
-    chart_height = (GRID_HEIGHT * CELL) + ((GRID_HEIGHT - 1) * GAP)
     svg_width = chart_width + (PADDING * 2)
     svg_height = 190
 
@@ -45,13 +44,17 @@ def create_svg(data: dict) -> str:
     for week_index in range(GRID_WIDTH):
         for day_index in range(GRID_HEIGHT):
             cell_date = grid_start + timedelta(weeks=week_index, days=day_index)
-            count = daily_map.get(cell_date.isoformat(), 0)
+            if cell_date < start_date or cell_date > end_date:
+                count = 0
+            else:
+                count = daily_map.get(cell_date.isoformat(), 0)
             color = PALETTE[min(count, len(PALETTE) - 1)]
+            fill_opacity = 0.18 if count == 0 else 0.9
             x = PADDING + week_index * (CELL + GAP)
             y = PADDING + day_index * (CELL + GAP)
             delay = (week_index * 0.06) + (day_index * 0.02)
             cells.append(
-                f'<rect class="cell" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="3" fill="{color}" opacity="0.18" style="animation-delay:{delay:.2f}s;"/>'
+                f'<rect class="cell" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="3" fill="{color}" fill-opacity="{fill_opacity}" style="animation-delay:{delay:.2f}s;"/>'
             )
 
     total_contributions = data.get("total_contributions", sum(day["count"] for day in days))
