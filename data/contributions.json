@@ -1,13 +1,13 @@
 {
   "user": "Ozen-X",
   "source_url": "https://github.com/users/Ozen-X/contributions",
-  "total_contributions": 50,
+  "total_contributions": 47,
   "current_streak": 0,
-  "longest_streak": 31,
+  "longest_streak": 32,
   "best_day": 4,
   "best_day_date": "2025-12-08",
   "monthly_totals": {
-    "2025-11": 8,
+    "2025-11": 4,
     "2025-12": 8,
     "2026-01": 0,
     "2026-02": 0,
@@ -19,46 +19,11 @@
     "2026-08": 0,
     "2026-09": 0,
     "2026-10": 25,
-    "2026-11": 6
+    "2026-11": 7
   },
-  "start_date": "2025-11-02",
-  "end_date": "2026-11-07",
+  "start_date": "2025-11-09",
+  "end_date": "2026-11-08",
   "days": [
-    {
-      "date": "2025-11-02",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-03",
-      "count": 2,
-      "level": 2
-    },
-    {
-      "date": "2025-11-04",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-05",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-11-06",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-07",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-08",
-      "count": 1,
-      "level": 1
-    },
     {
       "date": "2025-11-09",
       "count": 1,
@@ -1876,6 +1841,11 @@
     },
     {
       "date": "2026-11-07",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-08",
       "count": 0,
       "level": 0
     }
